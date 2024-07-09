@@ -11,7 +11,6 @@ var_dump($result);
 
 $result = sum(100, 100);
 var_dump($result);
-
 function getFinalValue(int $value): string
 {
     if ($value >= 80) {
